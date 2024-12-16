@@ -9,6 +9,10 @@
    border: 1px solid #ddd;
    border-radius: 10px;
    overflow: hidden;
+  display: flex;
+  flex-direction: column;
+ gap: 10px;
+  justify-content: end;
    text-align: center;
    background-color: #fff;
    padding: 10px;
@@ -17,6 +21,7 @@
  .pizza-image {
    width: 100%;
    height: auto;
+ 
  }
  
  .pizza-tag {
@@ -27,11 +32,16 @@
    color: white;
    font-size: 12px;
    border-radius: 5px;
+   width: 50px;
+   margin: 0 auto;
+   
+
  }
  
  .pizza-name {
    font-size: 18px;
    font-weight: bold;
+  
  }
  
  .pizza-ingredients {
@@ -50,5 +60,8 @@
    color: white;
    border: none;
    border-radius: 5px;
+  width: 100px;
+  margin: 0 auto;
+  
    cursor: pointer;
  }

@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Pizza.css"
 
+
 const PizzaCard = ({ name, ingredients, price, tag, image }) => {
    return (
      <div className="pizza-card">

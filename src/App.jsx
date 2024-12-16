@@ -10,9 +10,9 @@ const App = () => {
     <>
     <Header/>
     <Sale/>
-    <h1>Пицца</h1>
+    
     <PizzaList/>
-    <Pizza/>
+   
     </>
   )
 }
