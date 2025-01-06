@@ -9,8 +9,8 @@ const Header = () => {
          <div className="wrap">
             <h1>🍕 Куда пицца</h1>
             <div className="nav">
-               <a href="./Sale.jsx">Акции</a>
-               <a href="/">Пицца</a>
+               <a href="">Акции</a>
+               <a href="./Pizza.jsx">Пицца</a>
                <a href="">Суши</a>
                <a href="">Напитки</a>
                <a href="">Закуски</a>
